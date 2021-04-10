@@ -49,4 +49,7 @@ app.get('/competence', (req, res) => {
 const PORT = set.PORT
 const IP = set.IP
 
-app.listen(PORT,IP)
+app.listen(PORT,IP, () => {
+  console.log(`Список компетенций: http://${IP}:${PORT}/competence`)
+  console.log(`Список участников: http://${IP}:${PORT}/studentList`)
+})

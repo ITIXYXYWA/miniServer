@@ -1,5 +1,5 @@
 {
-    "IP": "10.1.0.59",
+    "IP": "localhost",
     "PORT": 8080,
     "CORS": true
 }
